@@ -10,22 +10,22 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
-  "id": "sec-section-name",
+  "id": "L",
   "level": "1",
-  "url": "sec-section-name.html",
+  "url": "L.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Vectors as Lists of Quantities",
+  "body": " Vectors as Lists of Quantities  Text of section.  "
 },
 {
-  "id": "sec-section-name",
+  "id": "L",
   "level": "1",
-  "url": "sec-section-name.html",
+  "url": "L.html",
   "type": "Section",
   "number": "2.1",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Linear Combination as Mixture",
+  "body": " Linear Combination as Mixture  Text of section.  "
 },
 {
   "id": "backmatter-2",
