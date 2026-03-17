@@ -35,8 +35,11 @@
 		<p>
 			I walk into my kitchen to see what food I have to eat. As I look through my food, I suddenly realize that they are quite literally <em>covered</em> in lists of quantities! Pretty much every packaged food item has a box called <q>Nutrition Facts.</q> This box lists the masses of nutrients (either measured in grams g, milligrams mg, or micrograms mcg) contained within one serving size of the given food item. The box always lists the masses of the three most essential nutrients called <em>macronutrients</em>: total fat, total carbohydrates, and protein. Sometimes masses of other nutrients such as vitamin B, vitamin C, vitamin D, calcium, iron, and potassium are also listed.
 		</p>
+		
 		<image source="images/matrix_as_cereal" width="20%">
-    		<description> On the side of a box of cereal, we see the the "Nutrition Facts."</description>
+    		<description> 
+				On the side of a box of cereal, we see the the "Nutrition Facts."
+			</description>
 		</image>
 
 		<p>
