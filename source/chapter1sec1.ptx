@@ -5,4 +5,12 @@
 
   <p> Text of section. </p>
 
+  <fact>
+    <statement>
+      <p>
+        For more information on how to use PreTeXt, please visit <c>https://pretextbook.org/doc/guide/html/</c>.
+      </p>
+    </statement>
+  </fact>
+
 </section>
