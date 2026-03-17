@@ -166,7 +166,7 @@
 	</example>
 
 	<p>
-		Observe that in each quantitative situation above, we encountered many quantities, naturally grouped together, all at once. 
+		Observe that in each quantitative situation above, we encountered many quantities, naturally grouped together, all at once. Lists of quantities are often united by a single object or situation.  When analyzing the world around us, these lists of quantities naturally emerge, so it use useful to have language to discuss them.
 	</p>
 
 	<definition xml:id="def-list-length">
@@ -177,7 +177,7 @@
 	</definition>
 
 	<p>
-	Lists of quantities are united, tied together, by a single object or situation.  Right now, we are interested in analyzing objects and situations and identifying lists of quantities.  
+	 
 	</p>
 
 	<example>
@@ -268,6 +268,13 @@
 		<title> Meaningful vectors can have large list-length!</title>
 		<p>
 			People often think of vectors as only being geometric coordinates and limit their thinking to list-lengths of 1, 2, or 3.  While these are important examples of vectors, they can also constrain our thinking. I hope you see already that vectors of potentially large list-length are <em>natural</em> and <em>everywhere</em>.
+		</p>
+	</remark>
+
+	<remark>
+		<title> Day-to-Day vs. Disciplinary Vectors</title>
+		<p>
+			So far we have focused on what I call day-to-day vectors - vectors we all see in our day-to-day lives.  Of course, there are also countless disciplinary specific vectors - that is vectors that are unique to academic disciplines.  Vectors naturally arise in all quantitative disciplines, including: physics, chemistry, biology, computer science, economics, and business.  Throughout this course, I will introduce you to some disciplinary vectors.  However, there is simply no way for me to list every possible disciplinary vector here.  Rather, a major goal of this lesson is to get your mind prepared to see and reason about disciplinary vectors when you encounter them in your disciplinary contexts.
 		</p>
 	</remark>
 
