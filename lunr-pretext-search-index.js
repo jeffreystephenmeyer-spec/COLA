@@ -10,27 +10,27 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
-  "id": "L",
+  "id": "chp1sec1",
   "level": "1",
-  "url": "L.html",
+  "url": "chp1sec1.html",
   "type": "Section",
   "number": "1.1",
   "title": "Vectors as Lists of Quantities",
-  "body": " Vectors as Lists of Quantities  Text of section.    For more information on how to use PreTeXt, please visit https:\/\/pretextbook.org\/doc\/guide\/html\/ .    "
+  "body": " Vectors as Lists of Quantities  Text of section.   Optional  I. Newton   Here's the statement of the theorem.    You don't actually need a proof, but put it inside the theorem . You can actually put another proof right after this one if you want to.    "
 },
 {
-  "id": "L-3",
+  "id": "chp1sec1-3",
   "level": "2",
-  "url": "L.html#L-3",
-  "type": "Fact",
+  "url": "chp1sec1.html#chp1sec1-3",
+  "type": "Theorem",
   "number": "1.1.1",
-  "title": "",
-  "body": "  For more information on how to use PreTeXt, please visit https:\/\/pretextbook.org\/doc\/guide\/html\/ .   "
+  "title": "Optional.",
+  "body": " Optional  I. Newton   Here's the statement of the theorem.    You don't actually need a proof, but put it inside the theorem . You can actually put another proof right after this one if you want to.   "
 },
 {
-  "id": "L",
+  "id": "chp2sec1",
   "level": "1",
-  "url": "L.html",
+  "url": "chp2sec1.html",
   "type": "Section",
   "number": "2.1",
   "title": "Linear Combination as Mixture",
