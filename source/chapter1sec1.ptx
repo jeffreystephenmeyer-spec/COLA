@@ -12,10 +12,19 @@
 		<p>
 			With my lunch, I am drinking a glass of water. This glass of water exists, external to me, sitting beside me on my table. The water has many attributes: size, mass, temperature, color, and many more. For the moment, I will focus on its size.  We could agree on many ways to measure size, for example by measuring its volume in liters, cups, ounces, or cubic inches. Let's pick ounces. The volume of the water in my glass, measured in ounces, is a quantity.
 		</p>
+		<p>
+		<ul>
+			<li>Object: glass of water</li>
+			<li>Attribute: amount of water contained in the glass</li>
+			<li>Quantity: volume of water in ounces</li>
+		</ul>
+		</p>
+		
 		<figure xml:id="fig-water_glass">
     		<caption>Water in a glass. </caption>
-			<image source="images/water_glass" width="20%"/>
+			<image source="images/water_glass.png" width="20%"/>
 		</figure>
+
 	</example>
 
 	<p>
@@ -38,7 +47,9 @@
 		
 		<image source="images/matrix_as_cereal" width="20%">
     		<description> 
-				On the side of a box of cereal, we see the the "Nutrition Facts."
+				<p>
+					On the side of a box of cereal, we see the the "Nutrition Facts."
+				</p>
 			</description>
 		</image>
 
@@ -65,13 +76,62 @@
 			I want to plan out my day tomorrow and I look at my phone to get the forecast for the day. It is then that I realize that the forecast is a list of quantities! At first I see the following table.
 		</p>
 
-		<p>
-			|l|*8c| Hour &amp; 12am &amp; 3am &amp; 6am &amp; 9am &amp; 12pm &amp; 3pm &amp; 6pm &amp; 9pm<!-- linebreak --><term>Today</term>&amp; 42<m>^\circ</m> &amp; 39<m>^\circ</m> &amp; 38<m>^\circ</m> &amp; 48<m>^\circ</m> &amp; 56<m>^\circ</m> &amp; 59<m>^\circ</m> &amp; 53<m>^\circ</m> &amp; 46<m>^\circ</m><!-- linebreak -->
-		</p>
+		<table>
+			<title>Today's Forcast</title>
+			<tabular halign="center">
+				<row header="yes" bottom="minor" >
+				<cell>Hours after midnight </cell>
+				<cell>Temperature in Fahrenheit (&#176;F)</cell>
+				</row>
+				<row>
+				<cell>0</cell>
+				<cell>42&#176;F</cell>
+				</row>
+				<row>
+				<cell>3</cell>
+				<cell>39&#176;F</cell>
+				</row>
+				<row>
+				<cell>6</cell>
+				<cell>38&#176;F</cell>
+				</row>
+				<row>
+				<cell>9</cell>
+				<cell>48&#176;F</cell>
+				</row>
+				<row>
+				<cell>12</cell>
+				<cell>56&#176;F</cell>
+				</row>
+				<row>
+				<cell>15</cell>
+				<cell>59&#176;F</cell>
+				</row>
+				<row>
+				<cell>18</cell>
+				<cell>53&#176;F</cell>
+				</row>
+				<row>
+				<cell>21</cell>
+				<cell>46&#176;F</cell>
+				</row>
+			</tabular>
+
+			</table>
+
 
 		<p>
 			I scroll down a little further and see the following visual representation.
 		</p>
+
+		<figure xml:id="fig-weather-forecast">
+    		<caption>Weather forecast.</caption>
+    		<image source="images/forecast-graph.png">
+        		<description><p>A graphical representation of a weather forecast.</p></description>
+   	 		</image>
+		</figure>
+
+
 
 		<p>
 			I really like being able to see both the table and the visual. The table is nice and concise, but the visual gives me an excellent sense of how the temperature varies.
