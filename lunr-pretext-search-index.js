@@ -16,7 +16,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Vectors as Lists of Quantities",
-  "body": " Vectors as Lists of Quantities  Text of section.  "
+  "body": " Vectors as Lists of Quantities  Text of section.    For more information on how to use PreTeXt, please visit https:\/\/pretextbook.org\/doc\/guide\/html\/ .    "
+},
+{
+  "id": "L-3",
+  "level": "2",
+  "url": "L.html#L-3",
+  "type": "Fact",
+  "number": "1.1.1",
+  "title": "",
+  "body": "  For more information on how to use PreTeXt, please visit https:\/\/pretextbook.org\/doc\/guide\/html\/ .   "
 },
 {
   "id": "L",
