@@ -20,12 +20,22 @@
 		</ul>
 		</p>
 		
-		<figure xml:id="fig-water_glass">
-    		<caption>Water in a glass. </caption>
-			<image source="images/water_glass.png" width="20%"/>
-		</figure>
+		<!-- <figure xml:id="fig-water_glass"> -->
+    		<!-- <caption>Water in a glass. </caption> -->
+			<image source="images/water_glass.png" width="30%">
+			<shortdescription>Water in a glass.</shortdescription>
+			<description><p>Water in a glass.</p></description>
+			</image>
+		<!-- </figure> -->
 
 	</example>
+
+	<question>
+		<title>OAQ Analysis</title>
+		<p>
+			With a group, take a few minutes to look around and identify some objects, some attributes they possess, and agree upon a way to measure them.  After a few minutes, share some of your findings with the class.
+		</p>
+	</question>
 
 	<p>
 		If I want to measure the mass of my sandwich, then I put it on a scale, select units (e.g. grams, pounds, etc), and then read off the number. If I want to measure the distance I traveled in my car, then I look at my odometer, select units (miles or kilometers), and then read off the number. If I want to measure the temperature at my home, then I look at my thermometer, select my units (Fahrenheit or Celsius), and then read off the number.
@@ -45,7 +55,7 @@
 			I walk into my kitchen to see what food I have to eat. As I look through my food, I suddenly realize that they are quite literally <em>covered</em> in lists of quantities! Pretty much every packaged food item has a box called <q>Nutrition Facts.</q> This box lists the masses of nutrients (either measured in grams g, milligrams mg, or micrograms mcg) contained within one serving size of the given food item. The box always lists the masses of the three most essential nutrients called <em>macronutrients</em>: total fat, total carbohydrates, and protein. Sometimes masses of other nutrients such as vitamin B, vitamin C, vitamin D, calcium, iron, and potassium are also listed.
 		</p>
 		
-		<image source="images/matrix_as_cereal" width="20%">
+		<image source="images/matrix_as_cereal.png" width="100%">
     		<description> 
 				<p>
 					On the side of a box of cereal, we see the the "Nutrition Facts."
@@ -62,12 +72,25 @@
 	<example>
 		<title>Quantities as I travel</title>
 		<p>
-			I am always driving where I need to go. Today alone I will drive to campus, to lunch, to the grocery store, and then home. Even if I know directions, I often use my GPS in case there is something like traffic or a road closure. As I put in my destinations today, I realize that I am staring at list of quantities! In a given trip, each step of the travel instructions is the distance I drive, either in miles or feet, on a given road, until I turn onto the next street.
+			I am always driving where I need to go. Today I will drive to campus, to lunch, to the grocery store, and then home. Even if I know directions, I often use my GPS in case there is something like traffic or a road closure. As I put in my destinations today, I realize that I am staring at list of quantities! In a given trip, each step of the travel instructions is the distance I drive, either in miles or feet, on a given road, until I turn onto the next street.
 		</p>
 
 		<p>
-			For example, in Figure , are depicted the travel instructions to get from my home to the math department.
+			For example, in <xref ref="figure-gps" />, are depicted the travel instructions to get from my home to the math department.
 		</p>
+			<figure xml:id="figure-gps">
+				<caption>GPS directions to campus.</caption>
+				<image source="images/directions-plot.png" width="100%">
+						<description><p>A graphical representation of my path to campus.</p></description>
+				</image>
+		</figure>
+		<p>Travel Instructions:
+			<ol>
+			<li>Drive 1500 ft on Euclid Rd. Then Take a left. </li>
+			<li>Drive 500 ft on University Ave. You have reached your destination.</li>
+		</ol>
+		</p>
+
 	</example>
 
 	<example>
@@ -126,7 +149,7 @@
 
 		<figure xml:id="fig-weather-forecast">
     		<caption>Weather forecast.</caption>
-    		<image source="images/forecast-graph.png">
+    		<image source="images/forecast-graph.png" width="100%">
         		<description><p>A graphical representation of a weather forecast.</p></description>
    	 		</image>
 		</figure>
@@ -143,11 +166,142 @@
 	</example>
 
 	<p>
-		Observe that in each vignette, we encountered many quantities, naturally grouped together, all at once.
+		Observe that in each quantitative situation above, we encountered many quantities, naturally grouped together, all at once. 
 	</p>
 
+	<definition xml:id="def-list-length">
+    <title>Vectors and List-Length</title>
+    <statement>
+        <p>A <term>vector</term> is an ordered list of quantities.   The number of entries in the list is its <term>list-length</term>.</p>
+    </statement>
+	</definition>
+
 	<p>
-		Lists of quantities are united, tied together, by a single object or situation.
+	Lists of quantities are united, tied together, by a single object or situation.  Right now, we are interested in analyzing objects and situations and identifying lists of quantities.  
 	</p>
+
+	<example>
+		<title>Quantities in my kitchen - Revisited</title>
+		<p>
+			An <em>object</em> here is one serving size of cereal.
+			An <em>attribute</em> of one serving size of cereal is nutrition.  
+			I can measure nutrition in many ways, for example: grams of fat, grams of carbs, grams of protein, etc.
+			The <term>list of macronutrients</term>, below, has list-length 3.
+		</p>
+
+		<ol>
+			<li> Grams of fat in one serving size</li>
+			<li> Grams of carbs in one serving size</li>
+			<li> Grams of protein in one serving size</li>
+		</ol>
+
+		<p>
+			A different <em>attribute</em> is my daily consumption. I can quantify consumption in many ways, for example: the number of serving sizes I consume each day of the week. The list of servings consumed, below, is a list of list-length 7.
+		</p>
+
+		<ol>
+			<li> Number of serving sizes consumed on Sunday, </li>
+			<li> Number of serving sizes consumed on Monday, </li>
+			<li> Number of serving sizes consumed on Tuesday, </li>
+			<li> Number of serving sizes consumed on Wednesday, </li>
+			<li> Number of serving sizes consumed on Thursday, </li>
+			<li> Number of serving sizes consumed on Friday, </li>
+			<li> Number of serving sizes consumed on Saturday, </li>
+		</ol>
+		
+	</example>
+
+		<example>
+		<title>Quantities outside - Revisited</title>
+		<p>
+			An <em>object</em> is the air outside my home. An <em>attribute</em> of air is temperature. I can quantify temperature in many ways, for example measure the temperature in degrees Fahrenheit in 3 hour intervals throughout the day. The corresponding list of temperatures, below, has list-length 8.
+		</p>
+
+		<ol>
+			<li> Degrees Fahrenheit at 12am, </li>
+			<li> Degrees Fahrenheit at 3am, </li>
+			<li> Degrees Fahrenheit at 6am, </li>
+			<li> Degrees Fahrenheit at 9am </li>
+			<li> Degrees Fahrenheit at 12pm, </li>
+			<li> Degrees Fahrenheit at 3pm, </li>
+			<li> Degrees Fahrenheit at 6pm, </li>
+			<li> Degrees Fahrenheit at 9pm. </li>
+		</ol>
+
+		<p>
+			A different <em>attribute</em> is humidity.  I can quantify humidity in many ways, for example measure the relative humidity (in percents) in 4 hour intervals throughout the day. The  corresponding list of humidities, below, has list-length 6.
+		</p>
+		<ol>
+			<li> Percent humidity at 12am, </li>
+			<li> Percent humidity at 4am, </li>
+			<li> Percent humidity at 8am, </li>
+			<li> Percent humidity at 12pm, </li>
+			<li> Percent humidity at 4pm, </li>
+			<li> Percent humidity at 8pm, </li>
+		</ol>
+		
+	</example>
+
+	<question>
+		<title>Identifying Lists of Quantities</title>
+		<p> 
+			Consider each of the following situations.  With your group, write down several lists of quantities that might naturally come up when analyzing the situation. Be sure to clearly specify each quantity (include object, attribute, and agreed way to measure).   Note that these are intentionally vague and open-ended prompts.
+		</p>	
+		<ol>
+			<li>The most recent time you went grocery shopping.</li>
+			<li>Your phone.</li>
+			<li>Your social media account.</li>
+			<li>The houses on your block.</li>
+			<li>A recording of a song by your favorite band.</li>
+			<li>The voting precincts in your region.</li>
+			<li>A single website that is comprised of 17 distinct pages.</li>
+			<li>Your favorite sports team.</li>
+			<li>Your favorite video game.</li>
+		</ol>
+	</question>
+
+	<p>
+		Throughout our day, we are constantly coming across vectors: nutrition facts in cereal, prices of our groceries, populations in cities, temperatures outside, internet search rankings, and even the color data for the pixels on our electronic displays.  In fact, a single image on a 4K LCD display is encoded within a list of <m>3\times 3840 \times 2160 = 24,883,200</m> many numbers!
+	</p>
+
+	<remark>
+		<title> Meaningful vectors can have large list-length!</title>
+		<p>
+			People often think of vectors as only being geometric coordinates and limit their thinking to list-lengths of 1, 2, or 3.  While these are important examples of vectors, they can also constrain our thinking. I hope you see already that vectors of potentially large list-length are <em>natural</em> and <em>everywhere</em>.
+		</p>
+	</remark>
+
+	<question>
+		<title> Constructing Feature Vectors (Machine Learning)</title>
+		<p>
+			In the photo below is a photo of my very sweet cat. In a quick glance, I can recognize him.
+		</p>
+
+		<figure>
+			<caption>(Left) A photo of my cat.  (Right) Image depicting Snout-Eye ratio.</caption>
+			<sidebyside widths="50% 50%" margins="0% 0%"
+				valigns="bottom top">
+				<image source="images/miyagi.jpg" />
+				<image source="images/miyagi-snout.png" />
+			</sidebyside>
+
+		</figure>
+
+		<p>I bet many of you have cats and dogs too.  Pull up some pictures of them for this activity.  When you look at them, you probably do not have any difficulty identifying which photos are of cats and which photos are of dogs.  <em>How do you think a computer might be able distinguish between photos of cats and photos of dogs?</em> Computers cannot analyze images like we can - we need to tell them what to look for. We need to identify a list of useful quantities from which the computer can learn to make the distinction between cats and dogs. In the area of machine learning, this emergent vector is sometimes called a <term>feature vector</term>.
+		</p>
+
+		<p>
+			Let me give you an example of one quantity we may wish to include in our feature vector.  Usually (but not always) dogs have longer snouts than cats, so snout length is a promising attribute to include in our feature vector. Unfortunately we cannot measure the <em>absolute</em> length of the snout from the photo, since we do not know the scale of the photo.   Instead, we could measure the <em>relative</em> length of the snout compared to the distance between the eyes.  For each photo, computers can compute and record this <em>snout-to-eye</em> ratio.
+		</p>
+
+		<p>
+			While this is a promising quantity, it is probably not enough for the computer the learn the difference between cats and dogs.  (Why do you think this is the case?)  In groups, come up with other promising quantities which you can read from a picture, and for which will be useful in trying to tell the difference between cats and dogs.
+		</p>
+
+		<p>
+			When you are done, share with the class your feature vector.  What quantities comprise your feature vector?  What is its list-length?  Do you think that you have given the computer enough quantities that it should be able to distinguish pictures of cats from pictures of dogs by looking at their feature vectors? Feature vectors form the starting point for machine learning. 
+		</p>
+
+	</question>
 
 </section>
