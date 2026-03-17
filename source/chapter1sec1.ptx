@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="L" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="chp1sec1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Vectors as Lists of Quantities</title>
 
   <p> Text of section. </p>
 
-  <fact>
-    <statement>
-      <p>
-        For more information on how to use PreTeXt, please visit <c>https://pretextbook.org/doc/guide/html/</c>.
-      </p>
-    </statement>
-  </fact>
+  <theorem>
+    <title>Optional</title>
+    <creator>I. Newton</creator>
+  <statement>
+    <p>
+      Here's the statement of the theorem.
+    </p>
+  </statement>
+
+  <proof>
+    <p>
+      You don't actually need a proof,
+      but put it inside the <c>theorem</c>.
+      You can actually put another <c>proof</c> right after this one if you want to.
+    </p>
+  </proof>
+  </theorem>  
 
 </section>
