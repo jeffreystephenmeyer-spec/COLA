@@ -3,24 +3,88 @@
 <section xml:id="chp1sec1" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Vectors as Lists of Quantities</title>
 
-  <p> Text of section. </p>
+	<p>
+		Welcome students! Before we can begin learning linear algebra, we need to establish the ontology of this book. In this book, I take the perspective that <term>objects</term> and <term>situations</term> exist external to us everywhere. These objects and situations possess many types of <term>attributes</term>. An attribute, together with an agreed upon unit of measurement, is a <term>quantity</term>.
+	</p>
 
-  <theorem>
-    <title>Optional</title>
-    <creator>I. Newton</creator>
-  <statement>
-    <p>
-      Here's the statement of the theorem.
-    </p>
-  </statement>
+	<example>
+		<title>Object-Attribute-Quantity (OAQ) Analysis of a Glass of Water</title>
+		<p>
+			With my lunch, I am drinking a glass of water. This glass of water exists, external to me, sitting beside me on my table. The water has many attributes: size, mass, temperature, color, and many more. For the moment, I will focus on its size.  We could agree on many ways to measure size, for example by measuring its volume in liters, cups, ounces, or cubic inches. Let's pick ounces. The volume of the water in my glass, measured in ounces, is a quantity.
+		</p>
+		<figure xml:id="fig-water_glass">
+    		<caption>Water in a glass. </caption>
+			<image source="images/water_glass" width="20%"/>
+		</figure>
+	</example>
 
-  <proof>
-    <p>
-      You don't actually need a proof,
-      but put it inside the <c>theorem</c>.
-      You can actually put another <c>proof</c> right after this one if you want to.
-    </p>
-  </proof>
-  </theorem>  
+	<p>
+		If I want to measure the mass of my sandwich, then I put it on a scale, select units (e.g. grams, pounds, etc), and then read off the number. If I want to measure the distance I traveled in my car, then I look at my odometer, select units (miles or kilometers), and then read off the number. If I want to measure the temperature at my home, then I look at my thermometer, select my units (Fahrenheit or Celsius), and then read off the number.
+	</p>
+
+	<p>
+		When we measure a quantity, we obtain a <term>real number</term>. For example, positive integers (e.g. 1, 2, 3, …), ratios of integers (e.g. <m>\frac{1}{2},\frac{2}{3}</m>), square roots of positive integers (e.g. <m>\sqrt{2}</m>), and transcendental numbers like <m>\pi</m> and <m>e</m> are all real numbers.
+	</p>
+
+	<p>
+		You do not need to know the value of a real number to reason about it. In Example , the volume of the water in my glass, measured in ounces is a number. We can reason about that volume of water without ever knowing its value. Sometimes I will <term>name</term> a real number with an italicized lower case letter. For example, I might name the volume of water in my glass, measured in ounces, with the letter <m>v</m>, for volume. I denote the collection of all real numbers as <m>\R</m> and use the symbols <m>a\in \R</m> to <em>mean</em> <m>a</m> is a real number.
+	</p>
+
+	<example>
+		<title>Quantities in my kitchen</title>
+		<p>
+			I walk into my kitchen to see what food I have to eat. As I look through my food, I suddenly realize that they are quite literally <em>covered</em> in lists of quantities! Pretty much every packaged food item has a box called <q>Nutrition Facts.</q> This box lists the masses of nutrients (either measured in grams g, milligrams mg, or micrograms mcg) contained within one serving size of the given food item. The box always lists the masses of the three most essential nutrients called <em>macronutrients</em>: total fat, total carbohydrates, and protein. Sometimes masses of other nutrients such as vitamin B, vitamin C, vitamin D, calcium, iron, and potassium are also listed.
+		</p>
+		<image source="images/matrix_as_cereal" width="20%">
+    		<description> On the side of a box of cereal, we see the the "Nutrition Facts."</description>
+		</image>
+
+		<p>
+			For example, the <q>Nutrition Facts</q> on the side of my box of Sugar-Os cereal is depicted on the right of Figure.
+		</p>		
+	</example>
+
+
+	<example>
+		<title>Quantities as I travel</title>
+		<p>
+			I am always driving where I need to go. Today alone I will drive to campus, to lunch, to the grocery store, and then home. Even if I know directions, I often use my GPS in case there is something like traffic or a road closure. As I put in my destinations today, I realize that I am staring at list of quantities! In a given trip, each step of the travel instructions is the distance I drive, either in miles or feet, on a given road, until I turn onto the next street.
+		</p>
+
+		<p>
+			For example, in Figure , are depicted the travel instructions to get from my home to the math department.
+		</p>
+	</example>
+
+	<example>
+		<title>Quantities outside</title>
+		<p> 
+			I want to plan out my day tomorrow and I look at my phone to get the forecast for the day. It is then that I realize that the forecast is a list of quantities! At first I see the following table.
+		</p>
+
+		<p>
+			|l|*8c| Hour &amp; 12am &amp; 3am &amp; 6am &amp; 9am &amp; 12pm &amp; 3pm &amp; 6pm &amp; 9pm<!-- linebreak --><term>Today</term>&amp; 42<m>^\circ</m> &amp; 39<m>^\circ</m> &amp; 38<m>^\circ</m> &amp; 48<m>^\circ</m> &amp; 56<m>^\circ</m> &amp; 59<m>^\circ</m> &amp; 53<m>^\circ</m> &amp; 46<m>^\circ</m><!-- linebreak -->
+		</p>
+
+		<p>
+			I scroll down a little further and see the following visual representation.
+		</p>
+
+		<p>
+			I really like being able to see both the table and the visual. The table is nice and concise, but the visual gives me an excellent sense of how the temperature varies.
+		</p>
+
+		<p>
+			I wonder, <em>what other lists of quantities are useful in describing the weather</em>?
+		</p>
+	</example>
+
+	<p>
+		Observe that in each vignette, we encountered many quantities, naturally grouped together, all at once.
+	</p>
+
+	<p>
+		Lists of quantities are united, tied together, by a single object or situation.
+	</p>
 
 </section>
